@@ -20,7 +20,6 @@ Settings.embed_model = HuggingFaceEmbedding(
     device="cpu",
     backend="onnx",
     model_kwargs={
-        "file_name": "onnx/model_qint8_arm64.onnx",
         "provider": "CPUExecutionProvider",
     },
 )
@@ -46,3 +45,4 @@ def chat_rag(query: str, index: VectorStoreIndex):
     response = engine.query(query)
 
     return response.response
+    
