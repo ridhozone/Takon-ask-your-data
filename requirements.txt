@@ -1,8 +1,10 @@
 streamlit
+pyarrow
 PyMuPDF
 python-docx
 groq
 llama-index
 llama-index-llms-groq
 llama-index-embeddings-huggingface
+
 optimum[onnxruntime]
