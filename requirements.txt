@@ -1,4 +1,5 @@
 streamlit
+pyarrow==20.0.0
 PyMuPDF
 python-docx
 groq
